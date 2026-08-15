@@ -78,12 +78,8 @@ data = data.dropna(
 # 5. TRAIN-TEST SPLIT
 # ============================================================
 #
-# IMPORTANT:
-# No random shuffling.
-#
 # First 80%  -> Training
 # Last 20%   -> Testing
-#
 # ============================================================
 
 train_size = int(len(data) * 0.80)
