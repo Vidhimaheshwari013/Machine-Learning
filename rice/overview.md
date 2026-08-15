@@ -7,7 +7,6 @@ This project focuses on predicting **future crop production using Machine Learni
 The project uses historical crop production data to identify trends and relationships between different agricultural variables and production. Machine Learning models are then applied to the historical data to estimate and predict crop production for future years.
 
 The main objective of this project is to demonstrate how historical agricultural data can be analyzed using mathematical and Machine Learning models to support **future crop production forecasting and agricultural decision-making**.
-
 ---
 
 ## 🎯 Objectives
