@@ -87,20 +87,18 @@ R2   : 0.8698
 ============================================
 MODEL COMPARISON
 ============================================
-                  Model          MAE         RMSE     R2
-      Linear Regression 1.353382e+07 1.820151e+07 0.1378
-  Polynomial Regression 1.308053e+07 1.778719e+07 0.1767
-Multivariate Regression 4.610813e+06 7.074422e+06 0.8698
-C:\Users\Vidhi\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\validation.py:2827: UserWarning: X does not have valid feature names, but LinearRegression was fitted with feature names
-  warnings.warn(
+          Model                   MAE               RMSE                 R2
+Linear Regression           1.353382e+07           1.820151e+07        0.1378
+Polynomial Regression       1.308053e+07           1.778719e+07        0.1767
+Multivariate Regression     4.610813e+06           7.074422e+06        0.8698
 
 
 ============================================
       FUTURE RICE PRODUCTION PREDICTION
               2027 - 2030
 ============================================
- Year Linear Prediction Polynomial Prediction Multivariate Prediction
- 2027       194,129,916           208,264,903             194,524,159
- 2028       196,501,959           211,802,375             196,907,629
- 2029       198,874,001           215,373,144             199,291,099
- 2030       201,246,044           218,977,211             201,674,569
+ Year     Linear Prediction      Polynomial Prediction      Multivariate Prediction
+ 2027       194,129,916           208,264,903                 194,524,159
+ 2028       196,501,959           211,802,375                 196,907,629
+ 2029       198,874,001           215,373,144                 199,291,099
+ 2030       201,246,044           218,977,211                 201,674,569
