@@ -1,0 +1,50 @@
+[Running] python -u "c:\Users\Vidhi\OneDrive\Desktop\ML practical\P2\1.py"
+Dataset Shape: (600, 11)
+
+First 5 rows:
+  SampleID CapShape CapColor    Odor  ... RingNumber  Habitat Population      Class
+0    S0001     flat     gray    foul  ...        one    woods  scattered  poisonous
+1    S0002   convex    brown  almond  ...       none  grasses    several     edible
+2    S0003   convex     gray    none  ...        two   leaves  scattered  poisonous
+3    S0004     flat   yellow    none  ...        one    woods   abundant  poisonous
+4    S0005  knobbed     gray   fishy  ...        one    urban    several  poisonous
+
+[5 rows x 11 columns]
+
+Classes:
+['edible' 'poisonous']
+
+Training samples: 480
+Testing samples: 120
+
+======================================
+CONFUSION MATRIX
+======================================
+[[32 19]
+ [20 49]]
+
+TN = 32
+FP = 19
+FN = 20
+TP = 49
+
+======================================
+CLASSIFICATION METRICS
+======================================
+Accuracy = 0.675
+Accuracy (%) = 67.5
+Error = 0.32499999999999996
+Error (%) = 32.49999999999999
+Recall = 0.7101449275362319
+Specificity = 0.6274509803921569
+F1-Score = 0.7153284671532847
+AUC = 0.6687979539641944
+
+======================================
+5-FOLD CROSS VALIDATION
+======================================
+Fold Accuracies: [0.7        0.65       0.64166667 0.65833333 0.71666667]
+Mean CV Accuracy: 0.6733333333333333
+
+[Done] exited with code=0 in 174.43 seconds
+
