@@ -1,4 +1,4 @@
-K-Nearest Neighbour (KNN) Classification
+# K-Nearest Neighbour (KNN) Classification
 About KNN
 
 K-Nearest Neighbour (KNN) is a supervised machine learning algorithm used mainly for classification. It classifies a new data point by finding its K closest data points (neighbours) and assigning the class that occurs most frequently among them.
